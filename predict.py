@@ -21,7 +21,7 @@ num = len(imgs)
 for i in range(num):
 	img = Image.open("/home/xinsongdu/Desktop/bigdata/project/data/testImages2/"+imgs[i])
 	img = img.convert('L')
-	img = resizeimage.resize_crop(img, [256,256])
+	img = resizeimage.resize_cover(img, [256,256])
 	arr = np.asarray(img,dtype="float32")
 	data[i,0,:,:] = arr
 	label[i] = int(imgs[i].split('_')[0])
