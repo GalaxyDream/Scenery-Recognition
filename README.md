@@ -1,6 +1,6 @@
-# Scenery-Recognition
+# Scene-Recognition
 
-Scenery Recgnition with Python + Keras:
+Scene Recgnition with Python + Keras:
 
 1. Introduction of Keras:
 	Keras is a kind of deep learning library which is based on Theano. It refers to Torch when designing and created by Python. It is a highly-modularized neural network library and GPU and CPU are supported by it.
